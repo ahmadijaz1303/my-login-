@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            overflow-x: hidden;
+            background-color: rgb(24, 24, 56);
+            width: 100%;
+        }
+        #formm{
+         display: flex;
+         justify-content: center;
+         /* padding: 10px 20px; */
+          flex-wrap: wrap;    
+          /* overflow-x: hidden;
+            
+          max-width: 100%; */
+         
+        }
+        #container{
+        /* margin: auto; */
+        background-color: rgb(24, 24, 56);
+        color: aliceblue;
+        padding: 15px;
+        width: 100%;
+        height: 700px;
+        /* max-width: 100%;
+        overflow-x: auto; */
+        
+        }
+        #container h2{
+            text-align: center;
+        }
+        #ref{
+            border-radius: 6px;
+            padding: 6px 1px;
+            width: 28%;
+            margin-top: 8px;
+        }
+        .input{
+            display: flex;
+            justify-content: center;
+        }
+
+        .form{
+            border-radius: 6px;
+            padding: 5px;
+            margin-top: 8px;
+            
+        }
+        .box1{
+            margin: 10px;;
+        }
+        #Country{
+            padding: 5px;
+            width: 100%;
+            margin-top: 8px;
+            border-radius: 6px;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(161, 161, 12);
+        }
+        #register{
+            padding: 9px 45px;
+            border-radius: 4px;
+            border-color:  rgb(161, 161, 12);
+            background-color:  rgb(48, 47, 47);
+            cursor: pointer;
+        }
+      
+            /* #Country{
+                 /* margin-bottom: 12px; 
+                width: 100%;
+            } */
+             .main{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+             }
+        
+        
+        </style>
+</head>
+<body>
+    <div id="container">
+        <h2 >Create Account</h2>
+    <form action="" >
+        <div class="main">
+        <div id="formm">
+    <div class="box1">
+        <label for="name">First Name</label> <br><input type="text" name="" id="name" class="form"> <br><br>
+        <label for="username">Username</label> <br><input type="text" name="" id="username" class="form"> <br><br>
+        <label for="Country">Country</label> <br><select name="" id="Country">
+            <option >Pakistan</option>
+            <option >Qatar</option>
+            <option >Oman</option>
+        </select><br><br>
+        <label for="pas">Password</label> <br><input type="password" name="" id="pas" class="form">
+    </div>
+    <div class="box1">
+        <label for="lastname">Last Name</label> <br><input type="text" name="" id="lastname" class="form"> <br><br>
+        <label for="email">E-Mail Address</label> <br><input type="email" name="" id="email" class="form"> <br><br>
+        <label for="Moblie">Moblie</label> <br><input type="tel" name="" id="Moblie" class="form" placeholder="+92"><br><br>
+        <label for="cpas">Confirm Password</label> <br><input type="text" name="" id="cpas" class="form">
+    </div>
+    
+</div>
+    <label for="ref">Referral Code</label> <br><input type="text" name="" id="ref" ><br><br>
+    <div style="font-size: large;"><input type="checkbox"  name="agree" > I agree with <a href=" #">Privacy Policy , Terms and Services</a></div>
+    <br><br>
+    <button id="register">Register </button><br><br>
+</div>
+    <div  style="font-size: small;">Already have and account? <a href=" #">Login</a> </div>
+    
+</form>
+</div>
+</body>
+</html>
